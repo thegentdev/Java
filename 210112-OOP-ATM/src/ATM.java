@@ -6,5 +6,10 @@ public class ATM {
 		 * Hesaba giriþ
 		 * -Ýþlemler
 		 */
+		Hesap hesap = new Hesap(987654, 1234, 3000, "MFE");
+		Login login = new Login();
+		
+		
+		
 	}
 }

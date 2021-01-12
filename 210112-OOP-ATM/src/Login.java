@@ -6,4 +6,8 @@ public class Login {
 	 * -giriþ hakký 3
 	 * -boolean geri dönüþ
 	 */
+	public boolean login(Hesap hesap) {
+		
+		return true;
+	}
 }
