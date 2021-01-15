@@ -13,6 +13,26 @@ public class Hesap {
 		this.isim = isim;
 	}
 
+	public void paraCek(int talepPara) {
+		if (bakiye - talepPara < 0) {
+			System.out.println("Bakiye yetersiz!");
+		}
+		else {
+			this.bakiye -= talepPara;
+			System.out.println("Ýþlem baþarýlý, kalan bakiye: " + this.bakiye);
+		}
+	}
+
+	public void paraYatýr(int yatýrýlacakPara) {
+		if (yatýrýlacakPara < 0) {
+			System.out.println("Geçersiz iþlem!");
+		}
+		else {
+			this.bakiye += yatýrýlacakPara;
+			System.out.println("Ýþlem baþarýlý, güncel bakiye: " + this.bakiye);
+		}
+	}
+
 	public int getMusteriNo() {
 		return musteriNo;
 	}
@@ -34,7 +54,12 @@ public class Hesap {
 	}
 
 	public void setBakiye(int bakiye) {
-		this.bakiye = bakiye;
+		if (bakiye >= 0) {
+			this.bakiye = bakiye;
+		}
+		else {
+			System.out.println("Bakiye sýfýrdan küçük olamaz!");
+		}
 	}
 
 	public String getIsim() {
@@ -44,6 +69,5 @@ public class Hesap {
 	public void setIsim(String isim) {
 		this.isim = isim;
 	}
-	
 
 }
