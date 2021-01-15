@@ -1,0 +1,20 @@
+/*	TO-DO
+	 *----- Akýþ
+	 *Main'de atm çalýþ metotu çaðýrýlacak
+	 *Atm.calis loop, içeride hesap oluþtur login oluþtur
+	 *login hesap bilgisi alacak, içerisinde kontrol edecek
+	 *üç giriþ hakký var boolean dönüþlü metot yapýlacak
+	 *doðru giriþ yapýlýrsa iþlemler ekrana yazdýrýlacak(Atm.calýþ içerisinde while(true)) 	
+	 *----- ATM
+	 *- Çalýþ methodu
+	 * 
+	 *----- HESAP
+	 *- Deðiþkenler: 
+	 *	-müþteri no, þifre, isim, bakiye
+	 *- Methodlar:
+	 *	-para yatýr/çek
+	 *
+	 *----- LOGIN
+	 *	-
+	 *		
+	 */
