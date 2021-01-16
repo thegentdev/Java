@@ -2,8 +2,8 @@
 public class Yonetici extends Calisanlar {
 	private int sorumluKisi;
 
-	public Yonetici(String isim, String soyisim, int id, int sorumluKisi) {
-		super(isim, soyisim, id);
+	public Yonetici(String isim, String soyisim, int id, int maas, int sorumluKisi) {
+		super(isim, soyisim, id, maas);
 		this.sorumluKisi = sorumluKisi;
 	}
 

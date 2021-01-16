@@ -1,13 +1,14 @@
 
 public class Calisanlar {
 	private String isim, soyisim;
-	private int id;
+	private int id, maas;
 
-	public Calisanlar(String isim, String soyisim, int id) {
+	public Calisanlar(String isim, String soyisim, int id, int maas) {
 
 		this.isim = isim;
 		this.soyisim = soyisim;
 		this.id = id;
+		this.maas = maas;
 	}
 
 	public String getIsim() {
@@ -35,10 +36,19 @@ public class Calisanlar {
 		this.id = id;
 	}
 
+	public int getMaas() {
+		return maas;
+	}
+
+	public void setMaas(int maas) {
+		this.maas = maas;
+	}
+
 	public void bilgileriGoster() {
 		System.out.println("Ýsim:"	+ this.isim
 							+ "\nSoyisim:" + this.soyisim
-							+ "\nid:" + this.id);
+							+ "\nid:" + this.id
+							+ "\nMaaþ:" + this.maas);
 	}
 
 }

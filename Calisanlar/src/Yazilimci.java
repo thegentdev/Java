@@ -2,8 +2,8 @@
 public class Yazilimci extends Calisanlar {
 	private String programlamaDilleri;
 
-	public Yazilimci(String isim, String soyisim, int id, String programlamaDilleri) {
-		super(isim, soyisim, id);
+	public Yazilimci(String isim, String soyisim, int id,int maas, String programlamaDilleri) {
+		super(isim, soyisim, id, maas);
 		this.programlamaDilleri = programlamaDilleri;
 	}
 
@@ -23,7 +23,7 @@ public class Yazilimci extends Calisanlar {
 	}
 
 	public void formatAt(String isletimSistemi) {
-		System.out.println(isletimSistemi + "yükleniyor...");
+		System.out.println(isletimSistemi + " yükleniyor...");
 	}
 
 }
